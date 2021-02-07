@@ -1,0 +1,63 @@
+V "GNAT Lib v9"
+A -g
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV SPARK_05
+
+U piles%b		piles.adb		62f71b93 NE OO PK GE
+W text_io%s		text_io.ads		text_io.ali
+
+U piles%s		piles.ads		35a90056 BN EE NE OO PK GE
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D piles.ads		20210207140438 35a90056 piles%s
+D piles.adb		20210207140541 76ecd35d piles%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+D text_io.ads		20200312110721 21b2c898 text_io%s
+X 10 piles.ads
+2i4 Taille{positive} 21r30 11|28r15
+3+9 Element 12r27 14r21 21r41 11|17r27 26r21 45r9
+5k9*Piles 2z4 3z9 21E9 26l5 26e10 11|4b14 57l5 57t10
+7X4*Pile_Pleine 11|29r16
+7X17*Pile_Vide 11|20r16 38r16
+10U14*Vider 11|7b14 10l8 10t13
+11V13*Est_Vide{boolean} 11|12b13 15l8 15t16
+12V13*Sommet{3+9} 11|17b13 23l8 23t14
+13U14*Empiler 14>10 11|25b14 33l8 33t15
+14*10 V{3+9} 11|26b10 32r22
+15U14*Depiler 11|35b14 41l8 41t15
+16U14*Inverser 11|44b14 54l8 54t16
+21A9 Table(3+9)<integer> 24r14
+23i4 Nb{natural} 11|9m7 14r14 19r10 22r22 28r10 31m7 31r13 32r15 37r10 40m7
+. 40r12 48r7 49r19
+24a4 Donnees{21A9} 11|22r14 32m7 50r15 51m10 51r22 52m10
+X 11 piles.adb
+45*4 tmp{10|3+9} 50m10 52r22
+46i4 n{natural} 48m4 51r30 52r18
+49i11 i{integer} 50r23 51r18
+X 25 text_io.ads
+24K9*Text_IO=24:29 11|1w6 2r5
+

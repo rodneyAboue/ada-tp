@@ -1,0 +1,92 @@
+V "GNAT Lib v9"
+M P W=b
+A -g
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U test_pile%b		test_pile.adb		b7c1009c NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+Z interfaces%s		interfac.ads		interfac.ali
+W piles%s		piles.adb		piles.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-tiinau.ads		20200312110721 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20200312110721 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20200312110721 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D piles.ads		20210207140438 35a90056 piles%s
+D piles.adb		20210207140541 76ecd35d piles%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+D test_pile.adb		20210207132920 a3dac852 test_pile%b
+D text_io.ads		20200312110721 21b2c898 text_io%s
+X 6 a-textio.ads
+166U14*New_Line 28|24s4 37s4 55s13 65s13 75s13 85s13 95s13 100s13
+242U14*Put 28|23s4 36s4 53s13 63s13 73s13 83s13 93s13 98s13
+249U14*Get_Line 28|41s7
+263U14*Put_Line 28|110s7 112s7
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 28|8r37
+56U14 Get 28|27s7[8]
+66U14 Put 28|54s13[8] 64s13[8] 74s13[8] 84s13[8] 94s13[8] 99s13[8]
+X 13 piles.ads
+5k9*Piles 26e10 28|4w6 18r29
+7X4 Pile_Pleine 28|111r9[18]
+7X17 Pile_Vide 28|109r9[18]
+12V13 Sommet{integer} 28|47s21[18] 49s21[18] 57s21[18] 59s21[18] 67s21[18]
+. 69s21[18] 77s21[18] 79s21[18] 87s21[18] 89s21[18] 97s20[18]
+13U14 Empiler 28|30s7[18] 52s13[18] 62s13[18] 72s13[18] 82s13[18] 92s13[18]
+15U14 Depiler 28|48s13[18] 50s13[18] 58s13[18] 60s13[18] 68s13[18] 70s13[18]
+. 78s13[18] 80s13[18] 88s13[18] 90s13[18]
+16U14 Inverser 28|33s4[18]
+X 28 test_pile.adb
+6U11*Test_Pile 6b11 114l5 114t14
+8K12 Integerio[8|46] 9r8
+11i4 Data{integer} 27m12 28r17 30r16
+12i4 Res{integer} 51m13 52r22 54r18 61m13 62r22 64r18 71m13 72r23 74r18 81m13
+. 82r23 84r18 91m13 92r23 94r18 97m13 99r18
+13i4 Ope1{integer} 47m13 51r20 57m13 61r20 67m13 71r20 77m13 81r20 87m13
+. 91r20
+14i4 Ope2{integer} 49m13 51r27 59m13 61r27 69m13 71r27 79m13 81r27 89m13
+. 91r27
+15a4 Operator{string} 41m17 42r17 44r12
+17i4 Last{integer} 41m27
+18K12 Pile_Vect[13|5] 19r8
+X 29 text_io.ads
+24K9*Text_IO=24:29 28|1w6 2r5 8r29
+

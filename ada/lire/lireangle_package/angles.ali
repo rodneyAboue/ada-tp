@@ -1,0 +1,70 @@
+V "GNAT Lib v9"
+A -g
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U angles%s		angles.ads		bcb9c049 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+Z ada.text_io.float_io%s
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-tiflau.ads		20200312110721 c0393f21 ada.text_io.float_aux%s
+D a-tiflio.ads		20200312110721 56fbda09 ada.text_io.float_io%s
+D a-tiflio.adb		20200312110721 fd9b1cfc ada.text_io.float_io%b
+D a-tiinau.ads		20200312110721 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20200312110721 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20200312110721 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D angles.ads		20210205104938 9d0b08d1 angles%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-fatflt.ads		20200312110721 11beb392 system.fat_flt%s
+D s-fatgen.ads		20200312110721 49cbaf86 system.fat_gen%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+D text_io.ads		20200312110721 21b2c898 text_io%s
+X 8 a-tiflio.ads
+46k21*Float_IO 89e25 14|10r52
+X 11 a-tiinio.ads
+46k21*Integer_IO 85e27 14|9r51
+X 14 angles.ads
+4K9*angles 11l5 11e11
+5f5*PI{float} 7r51
+6I10*angle_degre<integer> 9r62
+7F10*angle_radian<float> 10r61
+9K15*angle_degre_io[11|46]
+10K15*angle_radian_io[8|46]
+X 32 text_io.ads
+24K9*Text_IO=24:29 14|1w6 2r5 9r43 10r44
+

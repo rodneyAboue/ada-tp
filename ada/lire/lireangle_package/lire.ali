@@ -1,0 +1,55 @@
+V "GNAT Lib v9"
+M P W=b
+A -g
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U lire%b		lire.adb		b02106c2 NE OO SU
+W angles%s		angles.ads		angles.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20200312110721 76789da1 ada%s
+D a-except.ads		20200312110721 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312110721 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312110721 119b8fb3 ada.streams%s
+D a-tags.ads		20200312110721 491b781d ada.tags%s
+D a-textio.ads		20200312110721 881db35a ada.text_io%s
+D a-tiflio.ads		20200312110721 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20200312110721 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20200312110721 0e9b276f ada.unchecked_conversion%s
+D angles.ads		20210205104938 9d0b08d1 angles%s
+D interfac.ads		20200312110721 5ab55268 interfaces%s
+D i-cstrea.ads		20200312110721 e53d8b8e interfaces.c_streams%s
+D lire.adb		20210205105040 0c98c68b lire%b
+D system.ads		20200312110721 4635ec04 system%s
+D s-crtl.ads		20200312110721 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312110721 54135002 system.exception_table%s
+D s-ficobl.ads		20200312110721 078245e4 system.file_control_block%s
+D s-parame.ads		20200312110721 48ec542b system.parameters%s
+D s-secsta.ads		20200312110721 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312110721 a7318a92 system.soft_links%s
+D s-stache.ads		20200312110721 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312110721 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312110721 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312110721 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312110721 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312110721 1b7d22d2 system.wch_con%s
+D text_io.ads		20200312110721 21b2c898 text_io%s
+X 6 a-textio.ads
+242U14*Put 13|10s4 12s4
+X 8 a-tiinio.ads
+56U14*Get 13|11s19[10|9]
+66U14*Put 13|13s19[10|9]
+X 10 angles.ads
+4K9*angles 11e11 13|4w6 5r5
+6I10*angle_degre<integer> 13|7r16
+9K15*angle_degre_io[8|46] 13|11r4 13r4
+X 13 lire.adb
+6U11*Lire 6b11 14l5 14t9
+7i5 monangle{10|6I10} 11m23 13r23
+X 27 text_io.ads
+24K9*Text_IO=24:29 13|1w6 2r5
+
