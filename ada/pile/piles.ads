@@ -1,6 +1,7 @@
 generic
    Taille : Positive := 100;  
    type Element is private; 
+   with procedure Put_element (e: Element);
 
 package Piles is
 
@@ -14,6 +15,7 @@ package Piles is
          V : in     Element ); 
    procedure Depiler; 
    procedure Inverser;
+   procedure Afficher;
 
 
 private
