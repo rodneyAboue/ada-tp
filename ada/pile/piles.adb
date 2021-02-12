@@ -58,12 +58,9 @@ package body Piles is
    begin
       for i in 1..Nb loop      
          e:=Donnees(i);
-         Put(String(e));
+         Put_element(e);
       end loop;
    end Afficher;
-   
-   package Element_io is new Text_Io(Element);
-   use Element_io;
 
 end Piles;
 
